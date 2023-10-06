@@ -4,6 +4,9 @@ const fiveToOneHundred  = () =>{
         console.log(i)
     }
 }
+console.log(fiveToOneHundred(200));
+console.log(fiveToOneHundred(100));
+console.log(fiveToOneHundred(3));
 // fiveToOneHundred();
 
 const multiplesOfThree = () =>{
@@ -11,6 +14,9 @@ const multiplesOfThree = () =>{
         console.log(i)
     }
 }
+console.log(multiplesOfThree(15));
+console.log(multiplesOfThree(12));
+console.log(multiplesOfThree(8));
 //multiplesOfThree()
 
 const multiplesOfThreeOrFive = () => {
@@ -20,4 +26,32 @@ const multiplesOfThreeOrFive = () => {
     }
 }
 }
-multiplesOfThreeOrFive();
+console.log(multiplesOfThreeOrFive(33));
+console.log(multiplesOfThreeOrFive(23));
+console.log(multiplesOfThreeOrFive(25));
+
+const multiply = (num1, num2) =>{
+    return num1 * num2
+};
+console.log(multiply(7,4))
+console.log(multiply(6,3))
+console.log(multiply(500,600))
+
+
+const isNegative = (num) => {
+        return num <0;
+}
+console.log(isNegative(-7));
+console.log(isNegative(28));
+console.log(isNegative(0));
+
+const betweenTwentyAndFourty = (num) => {
+    if (num >= 30 && num <= 50){
+        return true
+    } else { 
+        return false
+    }
+}
+console.log(betweenTwentyAndFourty(4));
+console.log(betweenTwentyAndFourty(21));
+console.log(betweenTwentyAndFourty(30));
