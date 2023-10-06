@@ -46,12 +46,9 @@ console.log(isNegative(28));
 console.log(isNegative(0));
 
 const betweenTwentyAndFourty = (num) => {
-    if (num >= 30 && num <= 50){
-        return true
-    } else { 
-        return false
-    }
+    return num >=20 && num <= 40
 }
 console.log(betweenTwentyAndFourty(4));
 console.log(betweenTwentyAndFourty(21));
 console.log(betweenTwentyAndFourty(30));
+console.log(betweenTwentyAndFourty(7));
