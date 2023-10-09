@@ -20,4 +20,4 @@ const multiplesOfThreeOrFive = () => {
     }
 }
 }
-multiplesOfThreeOrFive();
+// multiplesOfThreeOrFive();
