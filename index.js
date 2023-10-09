@@ -4,6 +4,9 @@ const fiveToOneHundred  = () =>{
         console.log(i)
     }
 }
+console.log(fiveToOneHundred(200));
+console.log(fiveToOneHundred(100));
+console.log(fiveToOneHundred(3));
 // fiveToOneHundred();
 
 const multiplesOfThree = () =>{
@@ -11,6 +14,9 @@ const multiplesOfThree = () =>{
         console.log(i)
     }
 }
+console.log(multiplesOfThree(15));
+console.log(multiplesOfThree(12));
+console.log(multiplesOfThree(8));
 //multiplesOfThree()
 
 const multiplesOfThreeOrFive = () => {
@@ -20,4 +26,4 @@ const multiplesOfThreeOrFive = () => {
     }
 }
 }
-// multiplesOfThreeOrFive();
+multiplesOfThreeOrFive();
