@@ -26,29 +26,4 @@ const multiplesOfThreeOrFive = () => {
     }
 }
 }
-console.log(multiplesOfThreeOrFive(33));
-console.log(multiplesOfThreeOrFive(23));
-console.log(multiplesOfThreeOrFive(25));
-
-const multiply = (num1, num2) =>{
-    return num1 * num2
-};
-console.log(multiply(7,4))
-console.log(multiply(6,3))
-console.log(multiply(500,600))
-
-
-const isNegative = (num) => {
-        return num <0;
-}
-console.log(isNegative(-7));
-console.log(isNegative(28));
-console.log(isNegative(0));
-
-const betweenTwentyAndFourty = (num) => {
-    return num >=20 && num <= 40
-}
-console.log(betweenTwentyAndFourty(4));
-console.log(betweenTwentyAndFourty(21));
-console.log(betweenTwentyAndFourty(30));
-console.log(betweenTwentyAndFourty(7));
+multiplesOfThreeOrFive();
