@@ -1,55 +1,86 @@
+// Question 1.
 const fiveToOneHundred  = () =>{
     for ( let i = 5; i <= 100; i++) {
-        console.log(i)
-    }
-}
-console.log(fiveToOneHundred(200));
-console.log(fiveToOneHundred(100));
-console.log(fiveToOneHundred(3));
-// fiveToOneHundred();
+        console.log(i);
+    };
+};
+fiveToOneHundred();
 
+
+// Question 2.
 const multiplesOfThree = () =>{
     for ( let i = 3; i <= 99; i+=3) {
-        console.log(i)
-    }
-}
-console.log(multiplesOfThree(15));
-console.log(multiplesOfThree(12));
-console.log(multiplesOfThree(8));
-//multiplesOfThree()
+        console.log(i);
+    };
+};
+multiplesOfThree();
 
+
+// Question 3.
 const multiplesOfThreeOrFive = () => {
     for ( let i = 1; i <= 100; i++) {
         if( i % 3 ===0 || i % 5 === 0){
-        console.log(i)
-    }
-}
-}
-console.log(multiplesOfThreeOrFive(33));
-console.log(multiplesOfThreeOrFive(23));
-console.log(multiplesOfThreeOrFive(25));
-//multiplesOfThree()
+        console.log(i);
+    };
+};
+};
+multiplesOfThreeOrFive();
 
+
+// Question 4.
+const untilNum = (num) => {
+    for (let i = 1; i <= num; i++) {
+        console.log(i);
+    };
+};
+untilNum(5);
+
+
+// Question 5.
 const multiply = (num1, num2) =>{
     return num1 * num2
-}
-console.log(multiply(7,4))
-console.log(multiply(6,3))
-console.log(multiply(500,600))
-//multiply
+};
+console.log(multiply(3, 4));
 
+
+// Question 6.
+const add = (num1, num2) => {
+    return num1 === num2 ? 3 * (num1 + num2) : num1 + num2;
+};
+console.log(add(2, 4))
+console.log(add(7, 7))
+
+
+// Question 7.
 const isNegative = (num) => {
         return num <0;
-}
+};
 console.log(isNegative(-7));
 console.log(isNegative(28));
-console.log(isNegative(0));
-//betweenTwentyAndfFourty
 
+
+// Question 8.
+const triangleArea = (base, height) => 
+(1 / 2) * base * height;
+
+const area = triangleArea(6, 9)
+console.log(area)
+
+// or console.log(triangleArea(6, 9))
+
+// Question 9.
 const betweenTwentyAndFourty = (num) => {
-    return num >=20 && num <= 40
-}
+    return num >= 20 && num <= 40
+};
 console.log(betweenTwentyAndFourty(4));
-console.log(betweenTwentyAndFourty(21));
-console.log(betweenTwentyAndFourty(30));
-console.log(betweenTwentyAndFourty(7));
+console.log(betweenTwentyAndFourty(44));
+
+
+// Question 10.
+const largest = (num1, num2, num3) => {
+    return Math.max(num1, num2, num3);
+  };
+console.log(largest(6, 77, 190))
+
+/* Or const bestAnswer = largest(6, 77, 190)
+console.log(bestAnswer)*/
